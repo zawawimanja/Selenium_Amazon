@@ -25,7 +25,7 @@ namespace ConsoleApp1
             options.AddArguments("--disable-notifications");
 
             // Initialize the ChromeDriver with the specified path to chromedriver.exe and options
-            driver = new ChromeDriver("C:\\Users\\awi\\Downloads\\chromedriver.exe", options);
+            driver = new ChromeDriver("C:\\Driver\\chromedriver.exe", options);
 
             // Maximize the browser window and navigate to the Amazon website
             driver.Manage().Window.Maximize();
@@ -88,7 +88,7 @@ namespace ConsoleApp1
                 Console.WriteLine("The laptop price is not greater than $100.");
             }
 
-            driver.Close();
+           
             
 
         }
