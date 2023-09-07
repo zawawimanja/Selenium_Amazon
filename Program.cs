@@ -30,7 +30,7 @@ namespace ConsoleApp1
             // Maximize the browser window and navigate to the Amazon website
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("http://amazon.com");
-            Console.WriteLine("Amazon");
+        
         }
 
         public static void PerformAmazonSearch(string searchText)
